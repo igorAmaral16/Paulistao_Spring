@@ -1,0 +1,158 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Famous&family=News+Gothic+BT:wght@700');
+
+:root {
+  --cor-primaria: #2E8B57; /* verde */
+  --cor-secundaria: #000000; /* preto */
+  --cor-terciaria: #0000ff; /* azul */
+  --cor-texto: #ffffff; /* branco */
+}
+
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto);
+  display: flex;
+  align-items: left;
+  padding: 1rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#menu a {
+  color: var(--cor-texto);
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "newsgoth bt bold", sans-serif;
+}
+
+#menu a:hover {
+  color: var(--cor-secundaria);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Famosa", sans-serif;
+  font-weight: bold;
+}
+
+table {
+  border: 2px solid var(--cor-terciaria);
+  border-radius: 5px;
+  margin: 1rem auto;
+  width: 90%;
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+th {
+  background-color: var(--cor-terciaria);
+  color: var(--cor-texto);
+}
+
+button {
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--cor-secundaria);
+}
+.grupo-a {
+  background-color: #00cc66;
+}
+
+.grupo-b {
+  background-color: #ff9900;
+}
+
+.grupo-c {
+  background-color: #3399ff;
+}
+
+.grupo-d {
+  background-color: #ff6666;
+}
+
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+input[type="submit"]:active {
+  background-color: #277328;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+a:active,
+a:focus {
+  color: #f00;
+  text-decoration: none;
+  border-bottom: 2px solid #f00;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+
+
+
